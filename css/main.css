@@ -84,14 +84,16 @@ p {
   }
 
   .content {
-    width: 47%;
+    width: 46%;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .img-flex {
-    width: 47%;
+    width: 46%;
     max-width: 50em;
     display: inline-block;
+    vertical-align: middle;
   }
 
 }
