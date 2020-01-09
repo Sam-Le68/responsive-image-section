@@ -26,6 +26,9 @@ body {
 section {
   margin: 0;
   max-width: 50em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .content {
@@ -81,6 +84,7 @@ p {
 
   section {
     margin: 0 auto;
+    display: block;
   }
 
   .content {
