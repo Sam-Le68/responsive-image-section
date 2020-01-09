@@ -20,14 +20,16 @@ html {
 body {
   background-color: #e2e2e2;
   color: #000;
+  margin: 0;
 }
 
 section {
   margin: 0;
+  max-width: 50em;
 }
 
 .content {
-  max-width: 50em;
+  max-width: 23em;
   display: block;
   font-family: sans-serif;
   margin: 0 1em;
@@ -36,6 +38,7 @@ section {
 .img-flex {
   margin-top: 2em;
   width: 100%;
+  max-width: 50em;
 }
 
 img {
@@ -77,19 +80,18 @@ p {
   }
 
   section {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    align-items: center;
+    margin: 0 auto;
   }
 
   .content {
     width: 47%;
+    display: inline-block;
   }
 
   .img-flex {
     width: 47%;
     max-width: 50em;
+    display: inline-block;
   }
 
 }
