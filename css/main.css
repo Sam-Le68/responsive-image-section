@@ -45,6 +45,10 @@ section {
   display: block;
 }
 
+h1 {
+  margin: 2em 0 1em;
+}
+
 img {
   width: 100%;
   display: block;
@@ -56,6 +60,10 @@ a {
   background-color: #555;
   padding: .5em .75em;
   border-radius: 4px;
+}
+
+a:hover {
+  background-color: #000;
 }
 
 .h2 {
@@ -71,7 +79,7 @@ p {
 
   html {
     font-size: 100%;
-    line-height: inherit;
+    line-height: 1.4;
   }
 
 }
@@ -84,7 +92,7 @@ p {
   }
 
   section {
-    margin: 0 auto;
+    margin: .5em auto;
     display: block;
   }
 
@@ -92,6 +100,7 @@ p {
     width: 46%;
     display: inline-block;
     vertical-align: middle;
+    margin: -.5em 1em 0;
   }
 
   .img-flex {
@@ -99,6 +108,7 @@ p {
     max-width: 50em;
     display: inline-block;
     vertical-align: middle;
+    margin-top: 2.25em;
   }
 
 }
@@ -108,6 +118,11 @@ p {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .img-flex {
+    width: 46%;
+    margin-left: .5em;
   }
 
 }
