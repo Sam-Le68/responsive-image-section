@@ -42,6 +42,7 @@ section {
   margin-top: 2em;
   width: 100%;
   max-width: 50em;
+  display: block;
 }
 
 img {
@@ -53,7 +54,7 @@ a {
   color: #e2e2e2;
   text-decoration: none;
   background-color: #555;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   border-radius: 4px;
 }
 
